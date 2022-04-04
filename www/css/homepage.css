@@ -1,0 +1,129 @@
+.container {
+    padding: 12vh 8vw 12vh 8vw;
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+    border: none;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+input:focus {
+    outline: none;
+}
+
+.group {
+    margin-top: 4vh;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.add_btn {
+    height: 12.8vh;
+    width: 100%;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    font-weight: 900;
+    font-size: 2rem;
+    font-style: italic;
+    box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 16%), 0px 7px 20px 0 rgb(0 0 0 / 3%);
+}
+
+.activity {
+    background-color: #fff;
+    padding: 3vh 4vw;
+    border: none;
+    border-radius: 20px;
+    margin: 4vh 0;
+    position: relative;
+    box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 16%), 0px 7px 20px 0 rgb(0 0 0 / 3%);
+}
+
+.date {
+    color: #9B989B;
+}
+
+.activity_name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0.5vh 0;
+	color: #000000;
+}
+
+.reporter {
+    font-size: 1.2rem;
+    font-weight: 600;
+	color: #000000;
+}
+
+.edit_btn,
+.delete_btn {
+    width: 25vw;
+    height: 3.7vh;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+}
+
+.edit_btn {
+    background-color: #3087C7 !important;
+    margin-left: 15px;
+}
+
+.group_btn {
+    position: absolute;
+    right: 10px;
+    display: block;
+    bottom: -2vh;
+}
+
+
+@import url('https://rsms.me/inter/inter.css');
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+.card {
+  background: var(--color-background);
+  padding: 2vh 2vw 2vh 2vw;
+  margin-top: calc(4 * var(--size-bezel));
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+}
+
+
+.l-design-widht {
+  --color-light: white;
+  --color-dark: #212121;
+  --color-signal: #fab700;
+  
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  
+  --size-bezel: .5rem;
+  --size-radius: 4px;
+  
+  line-height: 1.4;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: calc(.6rem + .4vw);
+  color: var(--color-text);
+  font-weight: 300;
+}
